@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files and credentials
+.env
+.env.*
+marine-guard-438713-q1-4a078155e02a.json
+
+# Piper TTS Binary Models and Audio Output Files
+*.onnx
+*.wav
+src/tts/piper_models/*.onnx
+src/tts/*.wav
+
+
+#temp
+temp
+/temp
+/temp_uploads

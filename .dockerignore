@@ -1,0 +1,45 @@
+# Dependencies (rebuilt inside container)
+node_modules
+npm-debug.log*
+
+# Environment files deleted from ignore to allow upload
+
+# Git
+.git
+.gitignore
+
+# IDE / Editor
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation / Markdown (not needed at runtime)
+*.md
+
+# Test / Debug scripts
+check_slugs.js
+debugKey.js
+migrate_slugs.js
+testApiKey.js
+testAuth.js
+testFetch.js
+testImageGen.js
+test_tts.js
+test_output.mp3
+stt_server.log
+
+# Temp files
+temp-*.webm
+uploads/*
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Gemini agent data
+.gemini
